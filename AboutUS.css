@@ -1,0 +1,135 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* About Section Styles */
+.about {
+    padding: 2rem 0;
+    background-color: #f4f4f4;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.about p {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 1rem auto;
+}
+
+.team {
+    margin-top: 2rem;
+}
+
+.team h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center; /* Center team members horizontally */
+    gap: 1.5rem; /* Space between the images */
+    flex-wrap: wrap;
+    max-width: 1000px; /* Set the maximum width for the team members section */
+    margin: 0 auto;
+}
+
+.team-member {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 30%; /* Each card occupies 30% of the container width */
+    min-width: 250px; /* Set a minimum width for each card */
+    margin: 1rem 0; /* Add some space between cards */
+}
+
+.team-member img {
+    width: 100%;
+    height: 300px; /* Increased height for better appearance */
+    object-fit: cover;
+}
+
+.team-member h4 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.team-member p {
+    padding: 0 1rem 1rem 1rem;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Section Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer p {
+    margin-bottom: 0.5rem;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.social-links a:hover {
+    color: #ff4c4c;
+}
+
